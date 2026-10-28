@@ -23,7 +23,7 @@ function Footer() {
         </Button>
       </div>
       <div>
-        <div className="bg-gray-950 rounded-3xl border border-gray-800 mt-20">
+        <div className="bg-gray-950 rounded-3xl border border-gray-800 mt-20 m-6">
           <div className="grid grid-cols-4 gap-10 p-10">
             <div>
               <div className="flex items-center gap-3">
@@ -34,7 +34,7 @@ function Footer() {
                 />
 
                 <h2 className="text-3xl font-bold text-white">
-                  Code<span className="text-red-500">X</span>
+                  CODE<span className="text-red-500"> X</span>
                 </h2>
               </div>
 

@@ -16,7 +16,7 @@ function Home() {
       <div className="flex flex-col items-center p-2">
         <div className="flex justify-center mt-20">
           <p className="text-5xl font-bold text-white">
-            Code<span className="text-red-500">X</span> by 100xDevs
+            CODE<span className="text-red-500"> X</span> by 100xDevs
           </p>
         </div>
         <div className="mt-2">
@@ -90,7 +90,7 @@ function Home() {
         </div>
         <div className="w-280 rounded-xl bg-gray-900 text-white py-10 px-8 mt-8">
           <h1 className="text-3xl mb-4 font-bold">
-            Learn by building with Code<span className="text-red-500">X</span>
+            Learn by building with CODE<span className="text-red-500"> X</span>
           </h1>
           <p className="mb-6">
             Join 100xDevs project-based cohorts and bootcamps for a structured

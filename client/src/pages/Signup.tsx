@@ -10,8 +10,8 @@ function Signup() {
   return (
     <div className="min-h-screen bg-black">
       <Appbar />
-      <div className="pt-10 flex justify-center">
-        <Card className="w-[35%] bg-gray-900 text-white p-4 rounded-md">
+      <div className="flex justify-center px-4 py-4">
+        <Card className="w-full max-w-md bg-gray-900 p-4 text-white">
           <CardHeader>
             <CardTitle className="text-2xl py-2">Create your account</CardTitle>
           </CardHeader>
@@ -44,17 +44,6 @@ function Signup() {
                 </div>
                 <div className="grid gap-2">
                   <div className="flex items-center">
-                    <Label htmlFor="phone">Phone (optional)</Label>
-                  </div>
-                  <Input
-                    id="phone"
-                    type="tel"
-                    placeholder="Enter your phone number"
-                    className="h-11 text-base"
-                  />
-                </div>
-                <div className="grid gap-2">
-                  <div className="flex items-center">
                     <Label htmlFor="password">Password</Label>
                   </div>
                   <Input
@@ -65,25 +54,39 @@ function Signup() {
                     required
                   />
                 </div>
+                <div className="grid gap-2">
+                  <Label htmlFor="role">Role</Label>
+                  <select
+                    id="role"
+                    defaultValue="user"
+                    className="h-11 rounded-md border border-gray-700 bg-gray-950 px-3 text-base text-white outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/30"
+                  >
+                    <option value="user">User</option>
+                    <option value="admin">Admin</option>
+                  </select>
+                </div>
+                <Button
+                  type="submit"
+                  className="w-full rounded-lg bg-blue-600 py-5 hover:bg-blue-700 cursor-pointer"
+                >
+                  Continue
+                </Button>
               </div>
             </form>
-            <div className="pt-6 flex flex-col">
-              <Button
-                type="submit"
-                className="w-full bg-blue-600 rounded-lg py-5 hover:bg-blue-700 cursor-pointer"
-              >
-                Continue
-              </Button>
-              <div className="px-4 pt-4">
+            <div className="flex flex-col pt-6">
+              <div className="px-1 pt-1 text-sm text-gray-300">
                 <p>
                   Already have an account?{" "}
-                  <a className="text-blue-700 hover:underline" href="/login">
+                  <a className="text-blue-400 hover:underline" href="/login">
                     Log in
                   </a>
                 </p>
                 <p>
                   Forgot your password?{" "}
-                  <a className="text-blue-700 hover:underline cursor-not-allowed" href="">
+                  <a
+                    className="cursor-not-allowed text-blue-400 hover:underline"
+                    href="#"
+                  >
                     Reset it via email
                   </a>
                 </p>

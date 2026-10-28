@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Boxes, Radio } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 function CourseCard() {
@@ -15,14 +14,6 @@ function CourseCard() {
         >
           <img src="/2.webp" alt="" className="w-full" />
           <CardContent>
-            <div className=" gap-4 flex w-full">
-              <Button className="bg-blue-950 rounded-full hover:bg-blue-950">
-                <Boxes /> Bundle
-              </Button>
-              <Button className="bg-blue-950 rounded-full hover:bg-blue-950">
-                <Radio /> Live/Ongoing
-              </Button>
-            </div>
             <p className="text-white font-bold mt-4 text-xl">
               100xSchool Combined <br />
               Bootcamp

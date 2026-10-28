@@ -12,7 +12,7 @@ function Appbar() {
           <a href="/" className="flex items-center gap-2 cursor-pointer">
             <img className="rounded-full w-10 h-10" src="/1.webp" alt="Logo" />
             <p className="font-extrabold text-2xl">
-              Code<span className="text-red-500">X</span>
+              CODE<span className="text-red-500"> X</span>
             </p>
           </a>
         </div>

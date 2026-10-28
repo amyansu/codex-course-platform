@@ -58,7 +58,7 @@ function Login() {
                     <Label htmlFor="password">Password</Label>
                     <a
                       href="#"
-                      className="ml-auto inline-block text-sm underline-offset-4 text-blue-700"
+                      className="ml-auto inline-block text-sm underline-offset-4 text-blue-700 cursor-not-allowed"
                     >
                       Forgot password?
                     </a>

@@ -9,10 +9,7 @@ function Courses() {
     <div className="min-h-screen bg-black">
       <Appbar />
       <div className="m-6 text-white">
-        <h1 className="text-3xl font-bold mt-8">Development Courses</h1>
-        <div className="mt-4">
-          <h3 className="text-lg font-bold">Courses to get you started.</h3>
-        </div>
+        <h1 className="text-3xl font-bold mt-8">Courses</h1>
         <div className="grid grid-cols-4 gap-4 pt-6">
           {courses.map((course) => (
             <CourseCard key={course} />
