@@ -10,9 +10,9 @@ function Appbar() {
       <div className="flex h-16 px-2 py-2 bg-gray-900 text-white items-center gap-2">
         <div className="ml-3">
           <a href="/" className="flex items-center gap-2 cursor-pointer">
-            <img className="rounded-full w-10 h-10" src="/1.webp" alt="Logo" />
+            <img className="rounded-full w-10 h-10" src="/logo.jpeg" alt="Logo" />
             <p className="font-extrabold text-2xl">
-              CODE<span className="text-red-500"> X</span>
+              CODE<span className="text-red-500">X</span>
             </p>
           </a>
         </div>

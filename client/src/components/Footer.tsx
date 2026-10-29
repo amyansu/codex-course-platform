@@ -13,7 +13,7 @@ function Footer() {
         </h1>
         <p className="text-gray-400 text-xl text-center max-w-3xl mt-6">
           Have a question or need assistance? Email us at
-          <span className="text-blue-700">gethelp.codex@gmail.com</span>, and
+          <span className="text-blue-700"> gethelp.codex@gmail.com</span>, and
           our support team will get back to you within
           <span className="text-white font-bold">24 hours.</span>
         </p>
@@ -28,13 +28,13 @@ function Footer() {
             <div>
               <div className="flex items-center gap-3">
                 <img
-                  src="/1.webp"
+                  src="/logo.jpeg"
                   alt="100xDevs"
                   className="h-12 w-12 rounded-full"
                 />
 
                 <h2 className="text-3xl font-bold text-white">
-                  CODE<span className="text-red-500"> X</span>
+                  CODE<span className="text-red-500">X</span>
                 </h2>
               </div>
 
